@@ -37,8 +37,7 @@ Dialog({
 
  <img alt="截图" src="https://github.com/Liuxiang66/dialog/blob/master/img/dialog-00.png"/> 
  <img alt="截图" src="https://github.com/Liuxiang66/dialog/blob/master/img/dialog-01.png"/>  
- <img alt="截图" src="https://github.com/Liuxiang66/dialog/blob/master/img/dialog-02.png"/>   
- <img alt="截图" src="https://github.com/Liuxiang66/dialog/blob/master/img/dialog-03.png"/>    
+ <img alt="截图" src="https://github.com/Liuxiang66/dialog/blob/master/img/dialog-02.png"/>    
  <img alt="截图" src="https://github.com/Liuxiang66/dialog/blob/master/img/dialog-04.png"/>
 
 
