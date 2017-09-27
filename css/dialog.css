@@ -1,0 +1,136 @@
+.temp-dialog{  
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  line-height: 1.5;
+  color: #0f8c86;
+}
+.temp-dialog-wrapper{
+  width: 8rem;
+  padding: .5rem .6rem;
+  background: #f3f3f3;
+  border-radius: .04rem;
+  box-sizing: border-box;
+}
+
+.temp-dialog-header{
+  width: 100%;
+}
+.temp-dialog-content {
+  width: 100%;
+  margin-top: .5rem;
+}
+.temp-dialog-footer{
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.message-dialog-title{
+  line-height: 2;
+  text-align: center;
+  font-size: .37rem;
+}
+
+.content-top-words{
+  line-height: 1.5;
+  text-align: center;
+  font-size: .4rem;
+  font-weight: bold;
+}
+.content-bottom-words{
+  line-height: 1.5;
+  text-align: center;
+  font-size: .37rem;
+}
+.content-textarea{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow: auto;
+  margin: .2rem 0;
+}
+.content-textarea textarea{
+  width: 100%;
+  background: #f2f2f2;
+  resize: none;
+  border: 1px solid;
+  padding: .2rem .2rem;
+  min-height: 1.2rem;
+  color: #666;
+}
+.content-img-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem 0;
+}
+.content-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid #e3e2e7;
+}
+.content-img-container img{
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+
+
+.temp-dialog-one-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one-btn{
+  line-height: 2;
+  width: 3rem;
+  background: #0f8c86;
+  color: #fff;
+  font-size: .37rem;
+  text-align: center;
+  border-radius: .05rem;
+  margin: 0 .1rem;
+}
+
+.temp-dialog-two-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem 0;
+}
+.two-btn-left{
+  height: .5rem;
+  line-height: .5rem;
+  width: 1rem;
+  background: #e3e2e7;
+  color: #fff;
+  font-size: .25rem;
+  text-align: center;
+  border-radius: .05rem;
+  margin: 0 .1rem;
+}
+.two-btn-right{
+  height: .5rem;
+  line-height: .5rem;
+  width: 1rem;
+  background: #0f8c86;
+  color: #fff;
+  font-size: .25rem;
+  text-align: center;
+  border-radius: .05rem;
+  margin: 0 .1rem;
+}
+
+
