@@ -48,7 +48,10 @@
             btn: {
               isOneBtn: true,
               confirmBtnWords: '关闭',
-              style: {'background':'#e89223'},              
+              style: {'background':'#e89223'},   
+              callback: function(){
+                alert('我是点击按钮后的回调！');
+              }           
             }
           });
         }
